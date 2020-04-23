@@ -1,5 +1,5 @@
-var hammingDistance = function(strandA, strandB) {
-  var length = Math.min(strandA.length, strandB.length)
+const hammingDistance = function(strandA, strandB) {
+  let length = Math.min(strandA.length, strandB.length)
   ,   differences = 0
   ,   index = 0
 
@@ -10,7 +10,6 @@ var hammingDistance = function(strandA, strandB) {
   }
 
   return differences
-
-  
+ 
 }
 module.exports = hammingDistance
