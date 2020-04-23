@@ -10,5 +10,7 @@ var hammingDistance = function(strandA, strandB) {
   }
 
   return differences
+
+  
 }
 module.exports = hammingDistance
